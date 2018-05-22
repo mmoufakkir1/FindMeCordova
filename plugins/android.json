@@ -1,0 +1,37 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.cordova.findmec"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.cordova.findmec"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.cordova.findmec"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.cordova.findmec"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.cordova.findmec"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.cordova.findmec"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.cordova.findmec"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.cordova.findmec"
+    }
+  }
+}

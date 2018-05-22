@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Find ME</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="parkIt.css" />
+        <!-- <link type="text/css" rel="stylesheet" href="parkItios.css" /> -->
+        <link type="text/css" rel="stylesheet" href="parkItandroid.css" />       
+    </head>
+    <body>
+        <div id="navbar">
+            <button id="park" onClick="setMyLocation()">Find Me</button>
+            Find ME
+            <button id="retrieve"  onClick="setCss('map', 'visibility', 'hidden')">Clear</button>
+        </div>
+        <div id="container">
+            <div id="instructions">
+                <p>Click the Find Me button to set your Location</p>
+                <p>Click the Clear button to clear the Location</p>
+                <p style="text-align: center"><button id="gotIt" onClick="setCss('instructions','display','none')">Got It</button></p>
+            </div>
+            <div id="map">
+                <p class="labelStyle">latitude:
+                    <label id="latitude"></label>
+                </p>
+                <p class="labelStyle">longitude:
+                    <label id="longitude"></label>
+                </p class="labelStyle">
+                <p>Address:
+                    <label id="address"></label>
+                </p>
+            </div>
+            <div id="directions"></div>
+        </div>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBivO3Wmmr3HqWujp4vLlpOrvUPJSaffO0"></script>
+        <script type="text/javascript" src="parkIt.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
